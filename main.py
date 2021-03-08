@@ -39,6 +39,7 @@ def main():
     print("The maximum is:", fn.maximum(numbers))
     print("The total is:", fn.total(numbers))
     print("The average is:", fn.average(numbers))
+    print()
 
 # this starts the program
 main()
