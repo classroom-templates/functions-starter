@@ -53,6 +53,5 @@ def reverse_array(arr):
     # put the numbers from arr in another array in reverse order
     # you MUST use a loop to do this
     # return the reversed array
-    rev_nums = np.array([0] * SIZE, dtype=int)
     pass
 
