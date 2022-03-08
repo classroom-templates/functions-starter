@@ -4,17 +4,12 @@
 #
 #
 
-# SIZE is a global constant, use this throughout your program.
-# you should be able to change this to any integer > 0 and your
-# whole program will still work correctly. TEST THIS!
-SIZE = 10
-
 import numpy as np
-import random
+import random as rnd
 
-def make_array():
-    # create a numpy array of size SIZE filled with 0s.
-    # fill it random numbers 10-100 (inclusive) USING A LOOP
+def make_array(size, minr, maxr):
+    # create a numpy array of ints of length size
+    # fill it random numbers minr to maxr (inclusive) USING A LOOP
     # return it
     pass
 
@@ -27,9 +22,9 @@ def total(nums):
 
 def average(nums):
     # this will accept a Numpy integer array
-    # find the average if the array by calling total() and dividing by SIZE
+    # find the average of the array by calling total() and dividing by num's length
     # you may not use the Numpy average function or anything similar
-    # return the average as a float which has ensures pure float
+    # return the average as a float which has GUARNATEES pure float
     # calculations and guarantees maximum precision
     pass
 
@@ -50,8 +45,9 @@ def maximum(nums):
 def reverse_array(arr):
     # this will accept a Numpy integer array
     # do NOT alter the array passed in. use it as-is
-    # put the numbers from arr in another array in reverse order
-    # you MUST use a loop to do this
+    # put the numbers from arr in ANOTHER array in reverse order
+    # you MUST use a loop to do this and you may not use any
+    # automated function or method that does this for you
     # return the reversed array
     pass
 
