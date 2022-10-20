@@ -26,7 +26,7 @@ def average(nums):
     # find the average of the array by calling total() and dividing by num's length
     # you may not use the Numpy average function or anything similar
     # you may use the len() function to get the array's size prior to processing
-    # return the average as a float which has GUARNATEES pure float
+    # return the average as a float which GUARNATEES pure float
     # calculations and guarantees maximum precision
     pass
 
