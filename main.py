@@ -1,18 +1,13 @@
-#
-# 
-# your comment header here
-# 
-# 
+# this file is complete, DO NOT MODIFY IT
+# you may modify it while you program, but when you turn in for grading
+# it must be returned to EXACTLY this state
 
 # import libraries here
 import random as rnd
 import functions as fn
 
 def main():
-    # this function is complete, DO NOT MODIFY IT
-    # you may modify it while you program, but when you turn in for grading
-    # it must be returned to EXACTLY this state
-    
+
     # never use literals in your code. always make constants and use them instead
     # note these are capitalized to denote they are constants
     MINR = 10
